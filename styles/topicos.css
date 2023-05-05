@@ -2,6 +2,9 @@
     background: var(--azul-degrade);
     text-align: center;
     padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .tópicos__titulo {
@@ -14,6 +17,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 80%;
+    text-align: center;
+    align-self: center;
 }
 
 .tópicos__item {
